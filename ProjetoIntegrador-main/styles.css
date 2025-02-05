@@ -151,7 +151,7 @@ button.next {
   }
   
   .contact-form button {
-    background-color: #4CAF50;
+  
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -159,17 +159,17 @@ button.next {
     cursor: pointer;
   }
   
-  .contact-form button:hover {
-    background-color: #3e8e41;
-  }
   .fa-instagram {
     margin-right: 10px;
   }
+  .social-media a {
+    text-decoration: none;
+  }
+
   .social-media button {
     padding: 10px;
     border: none;
     border-radius: 25px; /* Torna os botões arredondados */
-    background-color: #25D366; /* Cor do WhatsApp */
     margin: 5px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -182,8 +182,4 @@ button.next {
 .social-media button:hover {
     transform: scale(1.1); /* Aumenta o tamanho do botão ao passar o mouse */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao passar o mouse */
-}
-
-.social-media a[href*="instagram"] button {
-    background-color: #E1306C; /* Cor do Instagram */
 }

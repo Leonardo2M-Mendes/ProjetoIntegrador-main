@@ -66,48 +66,24 @@
             <p>Endereço: Rua Prudente de Moraes, 742(1° andar) - Vila Nova(Centro) - Salto/SP</p>
           </div>
           <div class="contact-form">
-            <div class="social-media"> <a href="https://wa.me/1197476113?text=Olá, gostaria de saber mais sobre os cursos!" target="_blank" rel="noopener noreferrer">
-                <button><img src="./img/logo-whatsapp-png-file-15.png" alt=""></button>
-              </a>
-              <a href="https://www.instagram.com/escola_e3engenharia/" target="_blank" rel="noopener noreferrer">
-                  <button><img src="./img/instagram-logo-5.png" alt=""></button>
-                </a></div>
-           
+            <div class="social-media"> 
+                <a href="https://wa.me/1197476113?text=Olá, gostaria de saber mais sobre os cursos!" target="_blank" rel="noopener noreferrer">
+                    <button><img src="./img/zap-png.png" alt=""></button>
+                </a>
+                <a href="https://www.instagram.com/escola_e3engenharia/" target="_blank" rel="noopener noreferrer">
+                    <button><img src="./img/png-insta.png" alt=""></button>
+                </a>
+            </div>
             <!-- Você pode adicionar um formulário de contato aqui -->
           </div>
         </div>
       </section>
 
     <footer>
-        <p>&copy; 2025 E3-Engenharia. Todos os direitos reservados.
-           
-        </p>
+        <p>&copy; 2025 E3-Engenharia. Todos os direitos reservados.</p>
     </footer>
-    <script>
-        const carousel = document.querySelector('.carousel');
-        const prevBtn = document.querySelector('.prev');
-        const nextBtn = document.querySelector('.next');
-
-        let index = 0;
-        
-        function updateCarousel() {
-            const itemWidth = document.querySelector('.carousel-item').clientWidth;
-            carousel.style.transform = `translateX(${-index * itemWidth}px)`;
-        }
-
-        nextBtn.addEventListener('click', () => {
-            if (index < carousel.children.length - 1) {
-                index++;
-                updateCarousel();
-            }
-        });
-
-        prevBtn.addEventListener('click', () => {
-            if (index > 0) {
-                index--;
-                updateCarousel();
-            }
-        });
-    </script>
+ <script src="./script.js"></script>
+    
+    
 </body>
 </html>
