@@ -10,6 +10,10 @@ body {
     color: #333;
 }
 
+#courses h2 {
+    margin-bottom: 30px;
+}
+
 header {
     background: #ffff; /* Laranja da logo */
     color: white;
