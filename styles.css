@@ -220,7 +220,7 @@ button.next {
     order: 1;
 }
 
-.course.left img {
+.course.left a {
     order: 2;
 }
 
@@ -228,11 +228,11 @@ button.next {
     order: 2;
 }
 
-.course.right img {
+.course.right a {
     order: 1;
 }
 
-.course img {
+.course a {
     width: 45%;
     height: auto;
 }
